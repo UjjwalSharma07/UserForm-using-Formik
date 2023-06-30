@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+   
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-field label {
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .form-field .MuiFormControl-root {
+    width: 100%;
+  }
+  
+  .form-field .MuiOutlinedInput-inputMultiline {
+    resize: vertical;
+  }
+  
+  .form-field .MuiButton-root {
+    margin-top: 20px;
+  }
+  
